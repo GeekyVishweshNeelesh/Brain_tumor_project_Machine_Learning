@@ -67,12 +67,12 @@ git clone https://github.com/<your-username>/brain-tumor-classification.git
 cd brain-tumor-classification
 ```
 
-## **2. Install Dependencies **
+## 2. Install Dependencies
 ``` bash
 pip install -r requirements.txt
 ```
 
-## **3. Run the Streamlit App **
+## 3. Run the Streamlit App 
 ``` bash
 cd streamlit_app
 streamlit run app.py
@@ -80,21 +80,23 @@ streamlit run app.py
 
 🚀 Usage
 
-Upload an MRI image via the Streamlit interface.
+- Upload an MRI image via the Streamlit interface.
 
-The app displays:
-Predicted Tumor Type (glioma, meningioma, pituitary, or no tumor).
-Model Confidence Score.
+- The app displays:
+  
+- Predicted Tumor Type (glioma, meningioma, pituitary, or no tumor).
+
+- Model Confidence Score.
 
 📊 Model Performance
 
-Custom CNN Accuracy: ~85–88%.
+- Custom CNN Accuracy: ~85–88%.
 
-MobileNetV2 Accuracy: ~90–92%.
+- MobileNetV2 Accuracy: ~90–92%.
 
-ResNet50 Accuracy (final model): ~93–94%.
+- ResNet50 Accuracy (final model): ~93–94%.
 
-Metrics used: Accuracy, Precision, Recall, F1-score, and Confusion Matrix.
+- Metrics used: Accuracy, Precision, Recall, F1-score, and Confusion Matrix.
 
 🔖 Tags
 
