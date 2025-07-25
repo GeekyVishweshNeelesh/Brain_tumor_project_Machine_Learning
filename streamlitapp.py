@@ -126,3 +126,4 @@ if uploaded_file:
         st.error("Model failed to load. Please check the TFLite file.")
 else:
     st.info("Please upload an MRI image to start prediction.")
+
