@@ -37,8 +37,10 @@ brain-tumor-classification/
 │
 ├── README.md
 ├── requirements.txt
+|
 ├── notebook/
 │ └── brain_tumor_classification.ipynb
+|
 └── streamlit_app/
 └── app.py
 
@@ -53,10 +55,25 @@ git clone https://github.com/<your-username>/brain-tumor-classification.git
 cd brain-tumor-classification
 
 
-
 2. Install Dependencies
 
 pip install -r requirements.txt
+
+3. Run the Streamlit App
+
+cd streamlit_app
+streamlit run app.py
+
+
+🚀 Usage
+
+    Upload an MRI image via the Streamlit interface.
+
+    The app will display:
+
+        Predicted Tumor Type (glioma, meningioma, pituitary, or no tumor).
+
+        Model Confidence Score.
 
 
 
