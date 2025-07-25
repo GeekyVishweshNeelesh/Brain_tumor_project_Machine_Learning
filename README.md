@@ -1,4 +1,3 @@
-# Brain_tumor_project_Machine_Learning
 
 # **Brain Tumor Classification using Deep Learning**
 
@@ -48,53 +47,16 @@ brain-tumor-classification/
 
 ## **⚙️ Installation & Setup**
 
-### **1. Clone the Repository**
-```bash
+1. Clone the Repository
+
 git clone https://github.com/<your-username>/brain-tumor-classification.git
 cd brain-tumor-classification
 
+
+
 2. Install Dependencies
+
 pip install -r requirements.txt
-
-
-3. Run the Streamlit App
-cd streamlit_app
-streamlit run app.py
-
-
-🚀 Usage
-
-    Upload an MRI image via the Streamlit interface.
-
-    The app will display:
-
-        Predicted Tumor Type (glioma, meningioma, pituitary, or no tumor).
-
-        Model Confidence Score.
-
-📊 Model Performance
-
-    Custom CNN Accuracy: ~85–88%.
-
-    MobileNetV2 Accuracy: ~90–92%.
-
-    ResNet50 Accuracy (final model): ~93–94%.
-
-    Evaluated using accuracy, precision, recall, and F1-score.
-
-🔮 Future Enhancements
-
-    Integrate 3D CNNs for volumetric MRI data.
-
-    Add Vision Transformers (ViT) for improved accuracy.
-
-    Deploy the app on Streamlit Cloud/Heroku/Render.
-
-    Expand dataset for better generalization.
-
-
-
-
 
 
 
