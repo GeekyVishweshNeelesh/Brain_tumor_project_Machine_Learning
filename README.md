@@ -48,7 +48,7 @@ The dataset contains MRI images categorised into:
 ---
 
 ## **🗂 Folder Structure**
-
+```
 brain-tumor-classification/
 │
 ├── README.md
@@ -58,7 +58,7 @@ brain-tumor-classification/
 │ └── brain_tumor_classification.ipynb
 │
 └── streamlit_app/
-
+```
 ## **⚙️ Installation & Setup**
 
 ### **1. Clone the Repository**
