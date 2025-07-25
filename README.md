@@ -1,4 +1,4 @@
-cat << 'EOF' > README.md
+
 # 🧠 Brain Tumor Classification – Deep Learning Project
 
 ## **📖 Overview**
